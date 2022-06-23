@@ -46,7 +46,7 @@
                       <artifactId>sonar-plugin-api</artifactId>
                       <version>9.4.0.54424</version>
                       <scope>provided</scope>
-                </dependency
+		</dependency>
 	
 	</dependencies>
 
