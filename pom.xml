@@ -43,7 +43,21 @@
 		</dependency>
 	
 	</dependencies>
+<dependency>
+    <groupId>org.sonarsource.sonarqube</groupId>
+    <artifactId>sonar-plugin-api</artifactId>
+    <version>9.4.0.54424</version>
+    <scope>provided</scope>
+</dependency>
+	</dependencies>
 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
 	<build>
 		<plugins>
 			<plugin>
